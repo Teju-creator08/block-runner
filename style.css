@@ -1,0 +1,53 @@
+/* style.css */
+
+/* Center the game container and style text */
+.game-container {
+    width: 420px;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the play board: black background, fixed size */
+  .play-board {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    margin: 10px auto;
+    border: 2px solid #333;
+  }
+  
+  /* Style for each snake segment */
+  .snake {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: lime; /* bright green color */
+    /* Optional: add a small border for better visibility */
+    box-shadow: 0 0 2px #0f0;
+  }
+      
+  /* Style for the food block */
+  .food {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    /* Optional: glow effect */
+    box-shadow: 0 0 5px #f00;
+  }
+  
+  /* Style for the score text */
+  .score {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the Restart button */
+  #restartBtn {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }  
